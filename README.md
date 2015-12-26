@@ -5,9 +5,7 @@
 
 
 Textual version of [Git basic commands [Ipython notebook]] (https://github.com/kraster/Git-Commands/blob/master/Git%20-%20Basic%20commands.ipynb)
-
-
-### Contents
+#### Contents
 1. Configure GIT
 2. Create repositories
 3. Core GIT commands
@@ -16,20 +14,19 @@ Textual version of [Git basic commands [Ipython notebook]] (https://github.com/k
 6. Reset commands
 7. Refactor filenames
 
-### Sources and more commands can be found on the following links
+#### Sources and more commands can be found on the following links
 http://www.git-tower.com/blog/git-cheat-sheet/
-
 https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 
-### 1. Configure GIT
+#### 1. Configure GIT
 * **git config --global user.name "[name]"**
 * **git config --global user.email "[email/address]"**
 
-### 2. Create repositories
+#### 2. Create repositories
 * Clone a repository: **git clone repo.git**
 * Create a new local repository: **git init [project-name]**
 
-### 3. Core GIT commands
+#### 3. Core GIT commands
 * Changed files in your working directory: **git status**
 * Changes to tracked files: **git diff**
 * Changes between two branches: **git diff [first-branch] [second-branch]**
@@ -40,7 +37,7 @@ https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 * Download changes: **git pull**
 * Publish local changes: **git push**
 
-### 4. Branches commands
+#### 4. Branches commands
 * List all current branches: **git branch**
 * Create a new branch: **git branch <branch>**
 * Push upstream a new branch: **git push --set-upstream origin <branch>**
@@ -49,17 +46,17 @@ https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 * Delete a local branch: **git branch -d <branch>**
 * Delete a branch on the remote: **git branch -dr <branch>**
 
-### 5. Log commands
+#### 5. Log commands
 * Show all commits, starting with the newest: **git log**
 * Show changes over time for a specific file: **git log -p <file>**
 * Who changes what and when in <file>: **git blame <file>** (**q to exit**)
 
-### 6. Reset commands
+#### 6. Reset commands
 * Discard all local changes in your working diretory: **git reset --hard HEAD**
 * Discard local changes in a specific file: **git checkout HEAD <file>**
 * Revert a commit: **git revert <commit>**
 * Reset your HEAD pointer to a previous commit and discard all changes since then: **git reset --hard <commit>**
 
-### 7. Refactor filenames
+#### 7. Refactor filenames
 * Delete file from the working directory and stage deletion: **git rm [file]**
 * Changes the file name and prepares it for commit: **git mv [file-original] [file-renamed]**
