@@ -1,0 +1,57 @@
+First steps with Git
+
+Sources: 
+1)http://www.git-tower.com/blog/git-cheat-sheet/
+2)https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+
+
+-- CREATE REPOSITORIES --
+Clone a repository: git clone repo.git
+Create a new local repository: git init [project-name]
+
+
+-- CORE GIT COMMANDS -- 
+Changed files in your working directory: git status
+Changes to tracked files: git diff
+Changes between two branches: git diff [first-branch] [second-branch]
+
+Add files to commit: git add (add all files - git add -A)
+Commit: git commit -m "message"
+
+Download changes: git pull 
+Publish local changes: git push
+
+---- BRANCHES ----
+List all current branches: git branch
+Create a new branch: git branch <branch>
+Push upstream a new branch: git push --set-upstream origin <branch>
+Switch HEAD branch: git checkout <branch>
+Create a new tracking branch based on a remote branch: git checkout --track <remote/branch>
+Delete a local branch: git branch -d <branch>
+Delete a branch on the remote: git branch -dr <branch>
+
+
+---- LOG ----
+Show all commits, starting with the newest: git log
+Show changes over time for a specific file: git log -p <file>
+Who changes what and when in <file>: git blame <file> (q to exit)
+
+
+---- RESET ----
+Discard all local changes in your working diretory: git reset --hard HEAD
+Discard local changes in a specific file: git checkout HEAD <file>
+Revert a commit: git revert <commit>
+Reset your HEAD pointer to a previous commit ..and discard all changes since then: git reset --hard <commit>
+
+
+---- CONFIGURE ----
+git config --global user.name "[name]"
+git config --global user.email "[email/address]"
+
+
+-- REFACTOR FILENAMES --
+Delete file from the working directory and stage deletion: git rm [file]
+Changes the file name and prepares it for commit: git mv [file-original] [file-renamed]
+
+
+PULL REQUESTS AND MERGES from GITHUB.
