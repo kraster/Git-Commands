@@ -4,7 +4,7 @@
 2. Git advanced commands
 
 
-Textual version of [Git basic commands [Ipython notebook]] (https://github.com/kraster/Git-Commands/blob/master/Git%20-%20Basic%20commands.ipynb)
+## Textual version of [Git basic commands [Ipython notebook]] (https://github.com/kraster/Git-Commands/blob/master/Git%20-%20Basic%20commands.ipynb)
 #### Contents
 1. Configure GIT
 2. Create repositories
@@ -14,8 +14,9 @@ Textual version of [Git basic commands [Ipython notebook]] (https://github.com/k
 6. Reset commands
 7. Refactor filenames
 
-#### Sources and more commands can be found on the following links
+#### Sources and more commands can be found on the following links:
 http://www.git-tower.com/blog/git-cheat-sheet/
+
 https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 
 #### 1. Configure GIT
