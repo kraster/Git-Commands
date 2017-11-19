@@ -8,11 +8,6 @@
 6. Reset commands
 7. Refactor filenames
 
-#### Sources and more commands can be found on the following links:
-http://www.git-tower.com/blog/git-cheat-sheet/
-
-https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
-
 #### 1. Configure GIT
 * **git config --global user.name "[name]"**
 * **git config --global user.email "[email/address]"**
@@ -55,3 +50,10 @@ https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 #### 7. Refactor filenames
 * Delete file from the working directory and stage deletion: **git rm [file]**
 * Changes the file name and prepares it for commit: **git mv [file-original] [file-renamed]**
+
+
+
+#### More advanced commands can be found on:
+http://www.git-tower.com/blog/git-cheat-sheet/
+
+https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
