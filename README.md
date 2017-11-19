@@ -1,11 +1,5 @@
-# Git Commands
+# Git Basic commands
 
-1. [Git basic commands [Ipython notebook]] (https://github.com/kraster/Git-Commands/blob/master/Git%20-%20Basic%20commands.ipynb)
-2. Git advanced commands
-
-
-## Textual version of [Git basic commands [Ipython notebook]] (https://github.com/kraster/Git-Commands/blob/master/Git%20-%20Basic%20commands.ipynb)
-#### Contents
 1. Configure GIT
 2. Create repositories
 3. Core GIT commands
